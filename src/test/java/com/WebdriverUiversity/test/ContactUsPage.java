@@ -1,6 +1,6 @@
 package com.WebdriverUiversity.test;
 
-import static org.testng.Assert.assertEquals;
+
 
 import java.util.Iterator;
 import java.util.Set;
@@ -24,7 +24,7 @@ public class ContactUsPage {
 
 		driver.findElement(By.xpath("//a[@id='contact-us']/div/div/h1")).click();
 
-		Set windowHandles = driver.getWindowHandles();
+		Set <String> windowHandles = driver.getWindowHandles();
 
 		Iterator<String> ii = windowHandles.iterator();
 
