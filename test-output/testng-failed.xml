@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.WebdriverUiversity.test.ContactUsPage">
+      <class name="com.WebdriverUiversity.test.TodoList">
         <methods>
-          <include name="clickContactPage"/>
+          <include name="toDoList"/>
         </methods>
-      </class> <!-- com.WebdriverUiversity.test.ContactUsPage -->
+      </class> <!-- com.WebdriverUiversity.test.TodoList -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
